@@ -15,6 +15,6 @@ fish_add_path -P $HOME/.cargo/bin
 switch (uname)
   case Linux
   case Darwin
-        fish_add_path -P /opt/homebrew/bin
-        fish_add_path -P /opt/homebrew/sbin
+      fish_add_path -P /opt/homebrew/bin
+      fish_add_path -P /opt/homebrew/sbin
 end
