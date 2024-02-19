@@ -10,6 +10,7 @@ set -U fish_greeting ""
 bind -M insert \cc kill-whole-line repaint
 
 ## Extending Path
+fish_add_path -P /usr/local/bin
 fish_add_path -P $HOME/.cargo/bin
 
 switch (uname)
